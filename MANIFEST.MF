@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/log4j.jar
+Main-Class: com.foxlink.MutiTask

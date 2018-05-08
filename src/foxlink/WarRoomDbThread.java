@@ -35,11 +35,11 @@ public class WarRoomDbThread {
 					Boolean isDbLinkSuccess = warRoom.isDbLinkSuccess(dbLinkName);
 					 if(!isDbLinkSuccess){					
 							warRoom.insertMessageStatus(dbLinkName);
-							System.out.println(dbLinkName+" DSG近5分鐘連線異常，請盡快排除異常!"); 					
+							System.out.println(dbLinkName+" DSG近10分鐘連線異常，請盡快排除異常!"); 					
 					 }
 					 else{
-						 System.out.println(dbLinkName+" DSG近5分鐘連線正常!"); 
-						 logger.info(dbLinkName+" DSG近5分鐘連線正常!");
+						 System.out.println(dbLinkName+" DSG近10分鐘連線正常!"); 
+						 logger.info(dbLinkName+" DSG近10分鐘連線正常!");
 					 }
 				} catch(CustomException e){
 					logger.info(e);
@@ -65,7 +65,7 @@ public class WarRoomDbThread {
 			}
 		};
 		  // 第二个参数为首次执行的延时时间，第三个参数为定时执行的间隔时间  ,TimeUnit:计时单位，SECONDS表示秒
-	       service.scheduleAtFixedRate(runnable, 0, 5*60, TimeUnit.SECONDS);    
+	       service.scheduleAtFixedRate(runnable, 0, 10*60, TimeUnit.SECONDS);    
 	}
 			
 }

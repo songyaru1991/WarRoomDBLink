@@ -65,7 +65,7 @@ public class AlarmMessageDAO {
 			
 			rs.close();
 			stmt.close();
-			
+			Conn.close();
 		}
 		catch(Exception ex){
 			logger.error("Get Alarm Message is failed, due to: ",ex);
@@ -98,6 +98,10 @@ public class AlarmMessageDAO {
 		}
 		catch(Exception ex){
 			logger.error("Updating message status is failed, due to : ",ex);
+		}
+		finally{
+			if(!Conn.isClosed())
+				Conn.close();
 		}
 		return isUpdated;
 	}

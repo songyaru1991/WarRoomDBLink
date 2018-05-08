@@ -44,11 +44,17 @@ public class WarRoomDbLinksDAO {
 			pstmt.setString(3, "MsgBox");
 			if(dbLinkName=="KSCSBG" || dbLinkName=="KSSCBG"){
 			pstmt.setString(4, "KS");
-			}else{
+			}else if(dbLinkName=="MASSCBG"){
+				pstmt.setString(4, "MAS");	
+			}
+			else if(dbLinkName=="XZCEBU"){
+				pstmt.setString(4, "XZ");	
+			}
+			else{
 				pstmt.setString(4, "HQ");
 			}
-			pstmt.setString(5,dbLinkName+"連線異常通知(測試)");
-			pstmt.setString(6,"注意！"+dbLinkName+ "近5分鐘連線異常，請盡快排除異常!(測試)");
+			pstmt.setString(5,dbLinkName+"連線異常通知");
+			pstmt.setString(6,"注意！"+dbLinkName+ "近5分鐘連線異常，請盡快排除異常!");
 			pstmt.setInt(7, 43);
 			pstmt.setInt(8, 0);
 			pstmt.setInt(9, 0);
@@ -69,6 +75,10 @@ public class WarRoomDbLinksDAO {
 		catch(Exception ex){
 			logger.error("isInsert message status is failed, due to : ",ex);
 		}
+		finally{
+			if(!Conn.isClosed())
+				Conn.close();
+		}
 		return isInsert;
 	}
 	
@@ -78,6 +88,7 @@ public class WarRoomDbLinksDAO {
 		int effectRows=-1;
 		Connection Conn=null;
 		switch(dbLinkName){
+		//select * from dual@db_linkName   也可测试dblink是否能连通
 		case "AS":
 			sSQL="select count(*) from emesp.tp_production_rec@AAS where rownum<10";
 		    break;
@@ -94,7 +105,7 @@ public class WarRoomDbLinksDAO {
 			sSQL="select count(*) from sajet.g_sn_count@B9 where rownum<10";
 		    break;
 		case "CEBU":
-			sSQL="select count(*) from sajet.g_sn_count@CEBUNC where rownum<10";
+			sSQL="select count(*) from sajet.g_sn_count@CEBU where rownum<10";
 		    break;
 		case "CEBUNC":
 			sSQL="select count(*) from sajet.g_sn_count@CEBUNC where rownum<10";
@@ -105,6 +116,12 @@ public class WarRoomDbLinksDAO {
 		case "KSCSBG":    //B282/B312
 			sSQL="select count(*) from sajet.g_sn_count@KSCSBG where rownum<10";
 		    break;
+		case "MASSCBG":   
+			sSQL="select count(*) from sajet.g_sn_count@MASSCBG where rownum<10";
+		    break;   
+		case "XZCEBU":   
+			sSQL="select count(*) from sajet.g_sn_count@XZCEBU where rownum<10";
+		    break;   
 		default:
 			 break;
 		}
@@ -123,9 +140,14 @@ public class WarRoomDbLinksDAO {
 			}
 			rs.close();
 			pstmt.close();
+			Conn.close();
 		}
 		catch(Exception ex){
 			logger.error("select data from " +dbLinkName+" dsg is failed, due to : ",ex);
+		}
+		finally{
+			if(!Conn.isClosed())
+				Conn.close();
 		}
 		return isSuccess;
 	}

@@ -26,6 +26,8 @@ public class WeChatUserInfoDAO {
 			effectRows=pstmt.executeUpdate();
 			if(effectRows>=1)
 				logger.info("Updating wechat user's status is success.");
+			pstmt.close();
+			Conn.close();
 		}
 		catch(Exception ex){
 			logger.error("Updating wechat user's status is failed",ex);

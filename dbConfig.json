@@ -1,0 +1,21 @@
+{
+"warRoomDB":
+	{"serverName":"10.8.91.122",
+		"port":"1521",
+		"user":"mesd",
+		"password":"mesd",
+		"SID":"warroom"},
+ "AlarmOracleDB":
+	{"serverName":"10.8.91.142",
+	 "port":"1521",
+         "user":"alarmuser",
+	 "password":"alarmuser",
+	 "SID":"AlarmTestDB"
+	},
+"EnterpriseCode":"206114",
+"Account":"admin",
+"Password":"888888",
+"wechatCoprID":"wx91d365d1fb695837",
+"wechatCoprSecrect":"69ZyW-Qh4H-wm8Bgi5zIiECCFp4dhXyIW2O6ks22in093P8zgubCR8Lg_T2YM2IG",
+"imageUploadPath":"/Users/Shared/WeChat_Picture_Upload/Daily_Report/"
+}

@@ -33,6 +33,8 @@ public class MutiTask {
 		new WarRoomDbThread().dbLinkTask("CEBUNC");
 		new WarRoomDbThread().dbLinkTask("KSSCBG");
 		new WarRoomDbThread().dbLinkTask("KSCSBG");
+		new WarRoomDbThread().dbLinkTask("MASSCBG");
+		new WarRoomDbThread().dbLinkTask("XZCEBU");
 		new WeChatThread().sendMessage();
 	}
 

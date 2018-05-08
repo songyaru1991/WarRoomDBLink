@@ -293,7 +293,7 @@ public class WeChatThread {
 			}
 		};
 		  // 第二个参数为首次执行的延时时间，第三个参数为定时执行的间隔时间  ,TimeUnit:计时单位，SECONDS表示秒
-	       service.scheduleAtFixedRate(runnable, 5, 5*60, TimeUnit.SECONDS);    
+	       service.scheduleAtFixedRate(runnable, 5, 10*60, TimeUnit.SECONDS);    
 	}
 	
 }

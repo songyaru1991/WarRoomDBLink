@@ -256,9 +256,11 @@ public class WeChatThread {
 										AlarmMessageDAO manipulateMessage=new AlarmMessageDAO();
 										if(manipulateMessage.updateMessageStatus(message))
 											logger.info("Send text message to group chat is successed.");
+										System.out.println("Send text message to group chat is successed.");
 									}
 									else{
-										logger.info("Sned text message to group chat is failed.");
+										logger.info("Send text message to group chat is failed.");
+										System.out.println("Send text message to group chat is failed.");
 										//throw new CustomException("Thread Interrupted.", "Current Thread is interrupted.");
 									}
 								}
@@ -271,7 +273,7 @@ public class WeChatThread {
 						}
 					}
 					catch(CustomException e){
-						logger.info(e);
+						logger.error(e);
 						if (Thread.interrupted())
 							try {
 								throw new InterruptedException();

@@ -32,17 +32,23 @@ public class WarRoomDbThread {
 			public void run(){
 				WarRoomDbLinksDAO warRoom =new WarRoomDbLinksDAO();				 			 				
 				try {
+					Date day=new Date();    
+					SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); 
+					String nowTime=df.format(day);   
+					
 					Boolean isDbLinkSuccess = warRoom.isDbLinkSuccess(dbLinkName);
+					
 					 if(!isDbLinkSuccess){					
 							warRoom.insertMessageStatus(dbLinkName);
-							System.out.println(dbLinkName+" DSG近10分鐘連線異常，請盡快排除異常!"); 					
+							logger.info(nowTime + ":" + dbLinkName+"DSG近10分鐘連線異常，請盡快排除異常!");
+							System.out.println(nowTime + ":" + dbLinkName+" DSG近10分鐘連線異常，請盡快排除異常!"); 
 					 }
 					 else{
-						 System.out.println(dbLinkName+" DSG近10分鐘連線正常!"); 
-						 logger.info(dbLinkName+" DSG近10分鐘連線正常!");
+						 System.out.println(nowTime + ":" + dbLinkName+" DSG近10分鐘連線正常!"); 
+						 logger.info(nowTime + ":" + dbLinkName+"DSG近10分鐘連線正常!");
 					 }
 				} catch(CustomException e){
-					logger.info(e);
+					logger.error(e);
 					if (Thread.interrupted())
 						try {
 							throw new InterruptedException();

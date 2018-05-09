@@ -134,7 +134,7 @@ public class WarRoomDbLinksDAO {
 			rs=pstmt.executeQuery();
 			while(rs.next()){
 				effectRows=rs.getInt(1);
-				if(effectRows>0){
+				if(effectRows>=0){
 					isSuccess=true;
 				}
 			}

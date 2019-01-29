@@ -1,4 +1,4 @@
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-2-thread-1:35 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-2-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -7,7 +7,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -16,7 +16,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-5-thread-1:47 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-4-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -25,7 +25,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -34,7 +34,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-8-thread-1:43 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-3-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -43,7 +43,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -52,7 +52,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-7-thread-1:39 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-7-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -61,7 +61,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -70,7 +70,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-4-thread-1:39 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-9-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -79,7 +79,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -88,7 +88,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-6-thread-1:37 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-8-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -97,7 +97,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -106,7 +106,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-3-thread-1:35 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-6-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -115,7 +115,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -124,7 +124,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-9-thread-1:54 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-1-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -133,7 +133,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -142,7 +142,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-1-thread-1:35 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:18:56  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-5-thread-1:121 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -151,7 +151,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.io.FileReader.<init>(FileReader.java:58)
 	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
 	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -160,43 +160,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-10-thread-1:60 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
-java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
-	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
-	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-11-thread-1:55 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
-java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
-	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:131)
-	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-2-thread-1:186 ] - [ ERROR ]  select data from SFC2ERP dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-8-thread-1:755 ] - [ ERROR ]  select data from KSSCBG dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -206,7 +170,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -224,8 +188,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-2-thread-1:186 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-10-thread-1:188 ] - [ ERROR ]  select data from MASSCBG dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-6-thread-1:767 ] - [ ERROR ]  select data from CEBU dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -235,7 +198,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -253,7 +216,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-6-thread-1:191 ] - [ ERROR ]  select data from CEBU dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-5-thread-1:768 ] - [ ERROR ]  select data from B9 dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -263,7 +226,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -281,8 +244,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-6-thread-1:192 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-4-thread-1:192 ] - [ ERROR ]  select data from TAURUSDG dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-1-thread-1:788 ] - [ ERROR ]  select data from AS dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -292,7 +254,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -310,8 +272,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-4-thread-1:193 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-8-thread-1:194 ] - [ ERROR ]  select data from KSSCBG dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-2-thread-1:794 ] - [ ERROR ]  select data from SFC2ERP dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -321,7 +282,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -339,9 +300,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-8-thread-1:195 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-10-thread-1:191 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-7-thread-1:199 ] - [ ERROR ]  select data from CEBUNC dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-7-thread-1:797 ] - [ ERROR ]  select data from CEBUNC dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -351,7 +310,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -369,8 +328,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-7-thread-1:200 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-1-thread-1:198 ] - [ ERROR ]  select data from AS dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-3-thread-1:756 ] - [ ERROR ]  select data from EXCALIBUR dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -380,7 +338,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -398,8 +356,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-1-thread-1:201 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-9-thread-1:201 ] - [ ERROR ]  select data from KSCSBG dsg is failed, due to : 
+2018-05-22 09:18:56  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-4-thread-1:771 ] - [ ERROR ]  select data from TAURUSDG dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -409,7 +366,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -427,8 +384,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-9-thread-1:202 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-3-thread-1:203 ] - [ ERROR ]  select data from EXCALIBUR dsg is failed, due to : 
+2018-05-22 09:18:57  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-9-thread-1:813 ] - [ ERROR ]  select data from KSCSBG dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -438,7 +394,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -456,8 +412,43 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-3-thread-1:204 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-11-thread-1:202 ] - [ ERROR ]  select data from XZCEBU dsg is failed, due to : 
+2018-05-22 09:19:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-11-thread-1:8684 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
+	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:19:04  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-10-thread-1:8685 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:47)
+	at Utils.DatabaseUtility.<init>(DatabaseUtility.java:25)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:19:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-10-thread-1:8687 ] - [ ERROR ]  select data from MASSCBG dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -467,7 +458,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -485,8 +476,7 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-11-thread-1:205 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:146):DAO.AlarmMessageDAO:pool-5-thread-1:206 ] - [ ERROR ]  select data from B9 dsg is failed, due to : 
+2018-05-22 09:19:04  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-11-thread-1:8694 ] - [ ERROR ]  select data from XZCEBU dsg is failed, due to : 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -496,7 +486,7 @@ java.sql.SQLException: Invalid number format for port number
 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
 	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
-	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:132)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:133)
 	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
@@ -514,8 +504,9 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:04  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-5-thread-1:206 ] - [ ERROR ]  java.lang.NullPointerException
-2018-05-09 15:51:09  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-12-thread-1:5027 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
+2018-05-22 09:19:09  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-10-thread-1:13222 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 09:19:10  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-11-thread-1:14278 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 09:19:12  [ Utils.DatabaseUtility.getDatabaseConfig(DatabaseUtility.java:58):Utils.DatabaseUtility:pool-12-thread-1:16014 ] - [ ERROR ]  Get dbConfig.json is failed, due to: 
 java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbConfig.json (系统找不到指定的路径。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -533,7 +524,7 @@ java.io.FileNotFoundException: C:\Users\Administrator\Desktop\WarRoomDbLink\dbCo
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2018-05-09 15:51:09  [ DAO.AlarmMessageDAO.getAlarmMessages(AlarmMessageDAO.java:71):DAO.AlarmMessageDAO:pool-12-thread-1:5031 ] - [ ERROR ]  Get Alarm Message is failed, due to: 
+2018-05-22 09:19:12  [ DAO.AlarmMessageDAO.getAlarmMessages(AlarmMessageDAO.java:71):DAO.AlarmMessageDAO:pool-12-thread-1:16017 ] - [ ERROR ]  Get Alarm Message is failed, due to: 
 java.sql.SQLException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
 	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
@@ -561,4 +552,691 @@ Caused by: oracle.net.ns.NetException: Invalid number format for port number
 	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
 	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
 	... 16 more
-2018-05-09 15:51:09  [ foxlink.WeChatThread$1.run(WeChatThread.java:284):foxlink.WarRoomDbThread:pool-12-thread-1:5033 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 09:19:14  [ foxlink.WeChatThread$1.run(WeChatThread.java:286):foxlink.WarRoomDbThread:pool-12-thread-1:18622 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 09:21:42  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:154):DAO.AlarmMessageDAO:pool-5-thread-1:102542 ] - [ ERROR ]  select data from B9 dsg is failed, due to : 
+java.sql.SQLException: ORA-12541: TNS: 无监听程序
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:861)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1145)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1267)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3493)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1491)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:135)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 10:37:02  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-11-thread-1:42201 ] - [ ERROR ]  select data from XZCEBU dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:37:16  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-11-thread-1:56270 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:37:23  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-9-thread-1:63216 ] - [ ERROR ]  select data from KSCSBG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:37:28  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-9-thread-1:69022 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:37:44  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-1-thread-1:84211 ] - [ ERROR ]  select data from AS dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:37:46  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-1-thread-1:86656 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:38:05  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-5-thread-1:105238 ] - [ ERROR ]  select data from B9 dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:38:05  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-5-thread-1:105242 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:38:26  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-10-thread-1:126241 ] - [ ERROR ]  select data from MASSCBG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:38:26  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-10-thread-1:126242 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:38:47  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-3-thread-1:147236 ] - [ ERROR ]  select data from EXCALIBUR dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:38:47  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-3-thread-1:147239 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:39:08  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-6-thread-1:168246 ] - [ ERROR ]  select data from CEBU dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:39:08  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-6-thread-1:168249 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:39:29  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-7-thread-1:189254 ] - [ ERROR ]  select data from CEBUNC dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:39:29  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-7-thread-1:189256 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:39:50  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-2-thread-1:210257 ] - [ ERROR ]  select data from SFC2ERP dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:39:50  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-2-thread-1:210257 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:40:11  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-8-thread-1:231265 ] - [ ERROR ]  select data from KSSCBG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:40:11  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-8-thread-1:231267 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:40:32  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-4-thread-1:252285 ] - [ ERROR ]  select data from TAURUSDG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:40:32  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-4-thread-1:252286 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:44:17  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-11-thread-1:42223 ] - [ ERROR ]  select data from XZCEBU dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:44:33  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-11-thread-1:58681 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:44:38  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-10-thread-1:63223 ] - [ ERROR ]  select data from MASSCBG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:44:47  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-10-thread-1:72753 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:44:59  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-9-thread-1:84232 ] - [ ERROR ]  select data from KSCSBG dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:45:20  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-1-thread-1:105238 ] - [ ERROR ]  select data from AS dsg is failed, due to : 
+java.sql.SQLException: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:412)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:531)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:221)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:503)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at Utils.DatabaseUtility.makeConnection(DatabaseUtility.java:34)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:144)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:359)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:422)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:672)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:237)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1042)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:301)
+	... 16 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:141)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:123)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:337)
+	... 21 more
+2018-05-22 10:45:25  [ foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:62):foxlink.WarRoomDbThread:pool-9-thread-1:109858 ] - [ ERROR ]  java.lang.NullPointerException
+2018-05-22 10:54:11  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-1-thread-1:490748 ] - [ ERROR ]  select data from AS dsg is failed, due to : 
+java.sql.SQLSyntaxErrorException: ORA-02080: 数据库链接正在使用中
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1008)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1307)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3550)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1374)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:156)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 10:54:49  [ DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:163):DAO.AlarmMessageDAO:pool-4-thread-1:529414 ] - [ ERROR ]  select data from TAURUSDG dsg is failed, due to : 
+java.sql.SQLSyntaxErrorException: ORA-02080: 数据库链接正在使用中
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:439)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:395)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:802)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:436)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:186)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:521)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:205)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1008)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1307)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3449)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3550)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1374)
+	at DAO.WarRoomDbLinksDAO.isDbLinkSuccess(WarRoomDbLinksDAO.java:156)
+	at foxlink.WarRoomDbThread$1.run(WarRoomDbThread.java:39)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

@@ -40,11 +40,11 @@ public class DatabaseUtility {
 			// Windows:c:/FoxLinkNotification/Database_Config/dbConfig.json
 			// Mac: /Users/sfc/Desktop/dbConfig.json
 			JSONParser parseDBconfig = new JSONParser();
-			/*	JSONObject getDBconfig = (JSONObject) parseDBconfig
-				.parse(new FileReader("C:/Users/Yaru_Song/Desktop/WarRoomDbLink/dbConfig.json"));*/
+				JSONObject getDBconfig = (JSONObject) parseDBconfig
+				.parse(new FileReader("C:/Users/Yaru_Song/Desktop/WarRoomDbLink/dbConfig.json"));
 			//		String filePath = System.getProperty("user.dir") + "//dbConfig.json";
-			JSONObject getDBconfig = (JSONObject) parseDBconfig
-				.parse(new FileReader("C:/Users/Administrator/Desktop/WarRoomDbLink/dbConfig.json"));		
+			/*JSONObject getDBconfig = (JSONObject) parseDBconfig
+				.parse(new FileReader("C:/Users/Administrator/Desktop/WarRoomDbLink/dbConfig.json"));	*/	
 			JSONObject getDBconfigDetail = (JSONObject) getDBconfig.get(server);
 			if (getDBconfigDetail != null) {
 				this.serverName = (String) getDBconfigDetail.get("serverName");

@@ -54,7 +54,7 @@ public class WarRoomDbLinksDAO {
 				pstmt.setString(4, "HQ");
 			}
 			pstmt.setString(5,dbLinkName+"連線異常通知");
-			pstmt.setString(6,"注意！"+dbLinkName+ "近5分鐘連線異常，請盡快排除異常!");
+			pstmt.setString(6,"注意！"+dbLinkName+ "近10分鐘連線異常，請盡快排除異常!");
 			pstmt.setInt(7, 43);
 			pstmt.setInt(8, 0);
 			pstmt.setInt(9, 0);
@@ -84,7 +84,7 @@ public class WarRoomDbLinksDAO {
 	
 	public boolean isDbLinkSuccess(String dbLinkName)throws Exception{
 		boolean isSuccess=false;
-		String sSQL="";
+		String sSQL="",sCloseDBlinkSql="";
 		int effectRows=-1;
 		Connection Conn=null;
 		switch(dbLinkName){
@@ -127,19 +127,26 @@ public class WarRoomDbLinksDAO {
 		}
 		
 		ResultSet rs=null;
+		 PreparedStatement pstm = null;
 		try{
 			DatabaseUtility dbUtility=new DatabaseUtility("warRoomDB");
 			Conn=dbUtility.makeConnection();
-			PreparedStatement pstmt=Conn.prepareStatement(sSQL);
-			rs=pstmt.executeQuery();
+			pstm=Conn.prepareStatement(sSQL);
+			rs=pstm.executeQuery();
 			while(rs.next()){
 				effectRows=rs.getInt(1);
 				if(effectRows>=0){
 					isSuccess=true;
 				}
 			}
+						
+		/*	Conn.commit();
+		 * sCloseDBlinkSql="alter session close database link dbLinkName";
+			pstm=Conn.prepareStatement(sCloseDBlinkSql);
+			pstm.execute();*/
+			
 			rs.close();
-			pstmt.close();
+			pstm.close();
 			Conn.close();
 		}
 		catch(Exception ex){
